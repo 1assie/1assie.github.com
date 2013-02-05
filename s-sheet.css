@@ -1,0 +1,62 @@
+body.front   { background-color: rgb(219, 231, 245)} 
+body.int	{ background-color: rgb(219, 231, 245); margin: 5px 5px 5px 2px;}
+body.photos	{ background-color: gray; margin: 5px 5px 5px 2px;}
+
+         p { color: rgb( 51, 51, 51); font-family: arial; font-size: 12px; font-style: normal; font-weight: 100; text-decoration: none; text-indent: 0px; text-align: left; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; border: none; line-height: 1.5; }
+    p.gray { color: rgb( 51, 51, 51); font-family: arial; font-size: 12px; font-style: normal; font-weight: 100; text-decoration: none; text-indent: 0px; text-align: left; padding-top: 10px; padding-right: 10px; padding-bottom: 2px; padding-left: 10px; margin: 0px 0px 0px 0px; border: none; }
+ p.orange { color: rgb( 51, 153, 153); font-family: arial; font-size: 12px; font-style: normal; font-weight: 100; text-decoration: none; text-indent: 0px; text-align: left; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin: 0px 0px 0px 10px; border: /*1px solid rgb(204, 204, 204)*/; }
+  p.small { color: rgb( 51, 51, 51); font-family: arial; font-size: 10px; font-style: normal; font-weight: 100; text-decoration: none; text-indent: 0px; text-align: left; padding-top: 7px; padding-right: 10px; padding-bottom: 2px; padding-left: 10px; margin: 0px 0px 0px 0px; border: none; }
+    p.header { color: rgb( 51, 51, 51); font-family: arial; font-size: 11px; font-style: normal; font-weight: 100; text-decoration: none; text-indent: 0px; text-align: right; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin: 0px 5px 0px 0px; border: none; }
+  p.footer { color: rgb( 51, 51, 51); font-family: arial; font-size: 11px; font-style: normal; font-weight: 100; text-decoration: none; text-indent: 0px; text-align: justify; padding-top: 7px; padding-right: 10px; padding-bottom: 0px; padding-left: 10px; margin: 0px 0px 0px 0px; border: none; }
+ p.columns { color: rgb( 51, 51, 51); font-family: arial; font-size: 12px; font-style: normal; font-weight: 100; text-decoration: none; text-indent: 0px; text-align: left; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin: 0px 10px 0px 10px; border: none}
+ p.onwhite { color: rgb( 51, 51, 51); font-family: arial; font-size: 12px; font-style: normal; font-weight: 100; text-decoration: none; text-indent: 0px; text-align: left; padding-top: 10px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; margin: 1px 10px 12px 0px; border: 1px solid rgb(204, 204, 204); background-color: white; }
+p.filler { color: rgb( 255, 255, 255); font-family: arial; font-size: 6px; font-style: normal; font-weight: 100; text-decoration: none; text-indent: 0px; text-align: left; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin: 0px 0px 0px 0px; border: none; }
+  p.tohome { color: rgb( 51, 51, 51); font-family: arial; font-size: 11px; font-style: normal; font-weight: 100; text-decoration: none; text-indent: 0px; text-align: right; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin: 10px 5px 0px 0px; border: /*1px solid rgb(204, 204, 204)*/; background-color: none; }
+	   /*color....................font-family.........font-size........font-style..........font-weight.......text-decoration........text-indent.......text-align.........padding..........................................................................margin.........border background-color*/
+
+p.splr { text-align: center; vertical-alignment: center; }
+
+h1 { color: rgb( 102, 102, 102); font-family: arial; font-size: 20px; font-style: normal; font-weight: 100; text-decoration: none; text-indent: 0px; text-align: left; padding-top: 20px; padding-right: 10px; padding-bottom: 10px; padding-left: 10px; margin: 0px 0px 0px 0px; border: none; }
+h2 { color: rgb( 51, 51, 51); font-family: arial; font-size: 15px; font-style: normal; font-weight: 100; text-decoration: none; text-indent: 0px; text-align: left; padding-top: 10px; padding-right: 10px; padding-bottom: 5px; padding-left: 10px; margin: 0px 0px 0px 0px; border: none; }
+
+
+img { border: none;}
+img.tbl { width: 600px; height: auto; }
+img.spl	{ width: 300px; height: auto; border: none; }
+img.tospl { width: 70px; height: ; padding: 1px; border: 1px solid #eee; }
+img.inarow { width: 100px; height: ; padding: 1px; border: 1px solid #eee; }
+img.photos { width: 250px; height: auto; border: none; margin: 20px 20px 20px 20px; }
+
+table { float: top; border: ; margin: 0% 0% 0% 0%; }
+table.internal { float: top; border: ; margin: 0px 10px 0px 10px; }
+
+td	 { }
+td.white  { background-color: white; border: 1px solid rgb(204, 204, 204); }
+td.transp { background-color: none; padding-top: 0px; padding-bottom: 0px; }
+td.internal { background-color: white; border-bottom: 1px solid rgb(204, 204, 204); }
+
+tr  { vertical-align: top; }
+
+
+a:link { color: rgb(102, 102, 102); text-decoration: none; } /*255*/
+a:visited { color: rgb(102, 102, 153); text-decoration: none; }
+a:hover{ color: rgb(102,102,102); text-decoration: underline; }
+a:active { color: rgb(102, 102, 102); text-decoration: none; }
+/*(225, 238, 247) */
+
+span.exp { font-weight: bold; }
+
+	.spoiler
+	    {
+	    /*border:1px solid #ddd;*/
+	    padding:3px; margin: 0px 0px 0px 7px; 
+	    background-color: white; 
+	    color: rgb( 51, 51, 51); font-family: arial; font-size: 12px; font-style: normal; font-weight: 100; text-decoration: none; text-indent: 0px; text-align: left;
+	    }
+	.spoiler .inner
+	    {
+	    border:1px solid #eee;
+	    padding:3px;margin:3px 10px 3px 3px;
+	    background-color: white; 
+	    color: rgb( 51, 51, 51); font-family: arial; font-size: 12px; font-style: normal; font-weight: 100; text-decoration: none; text-indent: 0px; text-align: left;
+	    }
