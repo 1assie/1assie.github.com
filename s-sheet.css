@@ -14,7 +14,7 @@ p.filler { color: rgb( 255, 255, 255); font-family: arial; font-size: 6px; font-
   p.tohome { color: rgb( 51, 51, 51); font-family: arial; font-size: 11px; font-style: normal; font-weight: 100; text-decoration: none; text-indent: 0px; text-align: right; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; margin: 10px 5px 0px 0px; border: /*1px solid rgb(204, 204, 204)*/; background-color: none; }
 	   /*color....................font-family.........font-size........font-style..........font-weight.......text-decoration........text-indent.......text-align.........padding..........................................................................margin.........border background-color*/
 p.hr  {
-  margin:1.5em;
+  margin:1.0em 0 1.5em;
   border-bottom:1px dotted #ccc;
   padding-bottom:1.5em;
   }
