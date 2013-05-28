@@ -50,7 +50,7 @@ a:active {color:rgb(102,102,102);
     background-color:white;
     border-style:solid;
     border-width:1px;
-  padding:.7em;
+    padding:.7em;
     border-color:rgb(204, 204, 204);
 line-height:115%;
     }
@@ -72,7 +72,6 @@ h2.invisible {color:white;
     font-size:0.75em;
  }
 #main h1 {
-    color:#666666;
     font-size:1.25em;
     font-style: normal;
     font-weight: 100;
@@ -131,3 +130,54 @@ h2.invisible {color:white;
     border:1px solid rgb(204, 204, 204);
     width:88%;
     }
+
+
+/* Code for popovers adapted from:
+    --------------------------------------------------------------------------
+    Code for link-hover text boxes
+    By Nicolas Honing
+    Usage: <a onmouseover="popup('popup content', width)">a link</a>
+     (width is optional - default is in CSS: #pup {width: x;},
+      escape " in content with &quot;)
+    Tutorial and support at http://nicolashoening.de?twocents&nr=8
+    -------------------------------------------------------------------------- */
+
+
+.popover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1010;
+  padding: 5px;
+    margin-left: 5px;
+}
+
+.popover-inner {
+  padding: 3px;
+  width: 370px;
+  overflow: hidden;
+  background: #58a;
+  background: rgba(204,204,204, 0.8);
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+}
+
+.popover-content {
+  padding: 14px;
+  background-color: #ffffff;
+  -webkit-border-radius: 0 0 3px 3px;
+  -moz-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  -webkit-background-clip: padding-box;
+  -moz-background-clip: padding-box;
+  background-clip: padding-box;
+    font-size:0.8em;
+}
+
+.popover-content p {
+line-height:150%;
+}
