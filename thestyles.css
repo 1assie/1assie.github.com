@@ -1,183 +1,197 @@
 /*
 -----------------------------------------------
 Styles for 1assie.github
-Date: .. June 2014
+Date: 26 Aug 2013
 ----------------------------------------------- */
 
 body {background-color:rgb(219,231,245);
-    /*color:#707070;*/
-color:rgb(51,51,51);
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:100%;
-    }
+	/*color:#707070;*/
+	color:rgb(51,51,51);
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	}
 
 a:link {color:rgb(102,102,102);
-    text-decoration:none;
-    }      /* unvisited link */
+	text-decoration:none;
+	}      /* unvisited link */
 a:visited {color:rgb(102,102,153);
-    text-decoration:none;
-    }  /* visited link */
+	text-decoration:none;
+	}  /* visited link */
 a:hover {color:rgb(102,102,102);
-    text-decoration:underline;
-    }  /* mouse over link */
+	text-decoration:underline;
+	}  /* mouse over link */
 a:active {color:rgb(102,102,102);
-    text-decoration:none;
-    }  /* selected link */
+	text-decoration:none;
+	}  /* selected link */
 
 /* Elements
 ----------------------------------------------- */
 
 #header {
-    width:1200;
-    margin:0 auto 10px;
-    border:0px solid #ccc;
-    padding-top:40px;
-    font-weight:normal;
-    font-size:0.6em;
-    color:#666;
-    text-transform:uppercase;
-    letter-spacing:.2em;
-    }
+	width:1200;
+	margin:0 auto 10px;
+	border:0px solid #ccc;
+	padding-top:40px;
+	font-weight:normal;
+	font-size:0.6em;
+	color:#666;
+	text-transform:uppercase;
+	letter-spacing:.2em;
+	}
 #content {
-    width:1200px;
-    margin:0 auto;
-    padding:0;
-    text-align:left;
-    }
+	width:1200px;
+	margin:0 auto;
+	padding:0;
+	text-align:left;
+	}
 #main {
-    width:920px;
-    float:left;
-    background-color:white;
-    border-style:solid;
-    border-width:1px;
-    padding:.7em;
-    border-color:rgb(204, 204, 204);
-line-height:115%;
-    }
-#main p {
-    /*font-size:0.85em;*/
-font-size:0.8em;
-    }
-
-.mark {color:#31849B;
-    font-weight:bold;
-    } 
-    /*темно-синий, для словаря Кузнецова*/
-
-h2.invisible {color:white;
-    } 
-    /*невидимка для пропуска заголовков*/
-
-#main p.bread {
-    font-size:0.75em;
- }
+	width:920px;
+	float:left;
+	background-color:white;
+	border-style:solid;
+	border-width:1px;
+	padding:.7em;
+	border-color:rgb(204, 204, 204);
+	line-height:115%;
+	}
 #main h1 {
-    font-size:1.25em;
-    font-style: normal;
-    font-weight: 100;
- }
+	font-size:1.5em;
+	font-style: normal;
+	font-weight: 100;
+	}
 #main h2 {
-    font-size:1.125em;
-    font-style: normal;
-    font-weight: 100;
+	font-size:1.2em;
+	font-style: normal;
+	font-weight: 100;
  }
 #main h3 {
-    font-size:1em;
-    font-style: normal;
-    font-weight: 100;
- }
-
+	font-size:0.85em;
+	font-style:italic;
+	font-weight: 100;
+	}
+#main p {
+	font-size:0.8em;
+	}
+.mark {color:#31849B;
+	font-weight:bold;
+	} 
+	/*темно-синий шрифт*/
+.invisible {
+	color:white;
+	} 
+	/*светло-синий маркер*/
+.hlite {
+	background-color:#e0ffff;
+	} 
+	/*невидимка для пропуска заголовков*/
+#main p.bread {
+	font-size:0.75em;
+	}
+	/*уменьшенный*/
+#main p.small {
+	font-size:0.7em;
+	}
+	/*main p small, но для неск. абзацев*/
+.dsmall {
+	font-size:0.87em;
+	} 
+	/*сноски*/	
+#ftnote {
+	}
+#ftnote p {
+	font-size:0.7em;
+	}	
 
 #sidebar {
-    width:250px;
-    float:left;
-    background-color:white;
-    border:1px solid rgb(204, 204, 204);
-    }
+	width:250px;
+	float:left;
+	background-color:white;
+	border:1px solid rgb(204, 204, 204);
+	}
 #sidebar ul {
-  margin:0 0 1.5em;
-  padding:0 0 1.5em;
-  border-bottom:1px dotted #ccc;
-  list-style:none;
+	margin:0 0 1.5em;
+	padding:0 0 1.5em;
+	border-bottom:1px dotted #ccc;
+	list-style:none;
   }
 #sidebar li {
-  margin:0 .5em 0;
-  padding:0 0 .25em 15px;
-/*  text-indent:-15px;*/
-  line-height:1.5em;
-  font-size:0.8em;
-  }
+	margin:0 .5em 0;
+	padding:0 0 .25em 15px;
+	/*  text-indent:-15px;*/
+	line-height:1.5em;
+	font-size:0.8em;
+	}
 #sidebar p {
-  margin-left:.5em;
-  color:#666;
-  line-height:1.5em;
-  font-size:0.8em;
-  }
+	margin-left:.5em;
+	color:#666;
+	line-height:1.5em;
+	font-size:0.8em;
+	}
+
 #footer {
-  width:990px;
-  clear:both;
-  margin:0 auto;
-    padding-top:40px;
-    font-weight:normal;
-    font-size:0.6em;
-  color:#666;
-  text-transform:uppercase;
-  letter-spacing:.2em;
-  }
+	width:990px;
+	clear:both;
+	margin:0 auto;
+	padding-top:40px;
+	font-weight:normal;
+	font-size:0.6em;
+	color:#666;
+	text-transform:uppercase;
+	letter-spacing:.2em;
+	}
 
 #placeholder {
-    float:right;
-    border:1px solid rgb(204, 204, 204);
-    width:88%;
-    }
+	float:right;
+	border:1px solid rgb(204, 204, 204);
+	width:88%;
+	}
 
 
 /* Code for popovers adapted from:
-    --------------------------------------------------------------------------
-    Code for link-hover text boxes
-    By Nicolas Honing
-    Usage: <a onmouseover="popup('popup content', width)">a link</a>
-     (width is optional - default is in CSS: #pup {width: x;},
-      escape " in content with &quot;)
-    Tutorial and support at http://nicolashoening.de?twocents&nr=8
-    -------------------------------------------------------------------------- */
-
+	--------------------------------------------------------------------------
+	Code for link-hover text boxes
+	By Nicolas Honing
+	Usage: <a onmouseover="popup('popup content', width)">a link</a>
+	 (width is optional - default is in CSS: #pup {width: x;},
+	  escape " in content with &quot;)
+	Tutorial and support at http://nicolashoening.de?twocents&nr=8
+	-------------------------------------------------------------------------- */
 
 .popover {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 1010;
-  padding: 5px;
-    margin-left: 5px;
-}
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1010;
+	padding: 5px;
+	margin-left: 5px;
+	}
 
 .popover-inner {
-  padding: 3px;
-  width: 370px;
-  overflow: hidden;
-  background: #58a;
-  background: rgba(204,204,204, 0.8);
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-  -webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
-  -moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
-}
+	padding: 3px;
+	width: 370px;
+	overflow: hidden;
+	background: #58a;
+	background: rgba(204,204,204, 0.8);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	-webkit-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 3px 7px rgba(0, 0, 0, 0.3);
+	}
 
 .popover-content {
-  padding: 14px;
-  background-color: #ffffff;
-  -webkit-border-radius: 0 0 3px 3px;
-  -moz-border-radius: 0 0 3px 3px;
-  border-radius: 0 0 3px 3px;
-  -webkit-background-clip: padding-box;
-  -moz-background-clip: padding-box;
-  background-clip: padding-box;
-    font-size:0.8em;
-}
+	padding: 14px;
+	background-color: #ffffff;
+	-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	background-clip: padding-box;
+	font-size:0.8em;
+	}
 
 .popover-content p {
-line-height:150%;
-}
+	line-height:150%;
+	}
