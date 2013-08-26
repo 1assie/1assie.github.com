@@ -95,7 +95,19 @@ a:active {color:rgb(102,102,102);
 .dsmall {
 	font-size:0.87em;
 	} 
-	/*сноски*/	
+	/*сноски*/
+	
+#main p.columns {
+text-indent: 0px;
+text-align: left;
+padding-top: 0px;
+padding-right: 0px;
+padding-bottom: 0px;
+padding-left: 0px;
+margin: 0px 10px 0px 10px;
+border: none;
+}
+	
 #ftnote {
 	}
 #ftnote p {
