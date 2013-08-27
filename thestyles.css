@@ -55,11 +55,13 @@ a:active {color:rgb(102,102,102);
 	line-height:115%;
 	}
 #main h1 {
+	color:rgb(102,102,102);
 	font-size:1.5em;
 	font-style: normal;
 	font-weight: 100;
 	}
 #main h2 {
+	color:rgb(102,102,102);
 	font-size:1.2em;
 	font-style: normal;
 	font-weight: 100;
