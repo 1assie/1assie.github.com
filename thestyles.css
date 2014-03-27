@@ -97,8 +97,24 @@ a:active {color:rgb(102,102,102);
 .dsmall {
 	font-size:0.87em;
 	} 
-	/*сноски*/
+
+
+#main table {
+	font-size:0.8em;
+	}	
+
+#main tr  { vertical-align: top; }	
+
+#main td { 
+	background-color:white;
+	border-style:solid;
+	border-width: 0px 0px 1px 0px;
+	padding: 0 1.0em; 
+	border-color:rgb(204, 204, 204);
+	/*line-height:150% */
+	} 
 	
+
 #main p.columns {
 text-indent: 0px;
 text-align: left;
@@ -110,8 +126,11 @@ margin: 0px 10px 0px 10px;
 border: none;
 }
 	
+/*сноски*/
+	
 #ftnote {
 	}
+
 #ftnote p {
 	font-size:0.7em;
 	}	
