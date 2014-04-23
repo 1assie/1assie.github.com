@@ -165,14 +165,32 @@ border: none;
 	width:990px;
 	clear:both;
 	margin:0 auto;
-	padding-top:40px;
+	padding:10px 0;
 	font-weight:normal;
 	font-size:0.6em;
 	color:#666;
 	text-transform:uppercase;
 	letter-spacing:.2em;
+	list-style: none;
 	}
 
+#footer ul {
+	}
+
+#footer li {
+	float: left;
+	display: block;
+	float:left;
+	/*width:25%;*/
+	height:20px;
+	padding: 11px 20px 0px 20px;
+	border-left:1px solid rgb(204, 204, 204);
+	}	
+
+#footer img {
+	vertical-align:text-top;
+	}
+	
 #placeholder {
 	float:right;
 	border:1px solid rgb(204, 204, 204);
